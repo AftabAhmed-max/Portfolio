@@ -24,8 +24,9 @@
       justify-content: center;
       gap: 20px;
   
-      a {
+      .link-item {
         font-size: 30px;
+        cursor: pointer;
       }
     }
   }

@@ -5,21 +5,21 @@ import Parallax from './Components/Parallax/Parallax';
 
 const App = () => {
   return <div>
-    <section id='Home'>
+    <section id='home'>
       <Navbar />
       <Hero />
     </section>
-    <section id='Services'>
+    <section id='services'>
       <Parallax type="services"/>
     </section>
     <section>Services</section>
-    <section id='Portfolio'>
+    <section id='portfolio'>
       <Parallax type="portfolio"/>
     </section>
     <section>Portfolio1</section>
     <section>Portfolio2</section>
     <section>Portfolio3</section>
-    <section id='Contact'>Contact</section>
+    <section id='contact'>Contact</section>
   </div>;
 };
 
